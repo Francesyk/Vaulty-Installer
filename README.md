@@ -1,19 +1,19 @@
 <div align="center">
 
 <pre>
-                      ██╗   ██╗
-                      ██║   ██║
-                      ██║   ██║
-                      ╚██╗ ██╔╝
-                       ╚████╔╝ 
-                        ╚═══╝  
+                      <span style="color:#f97316;">██╗   ██╗</span>
+                      <span style="color:#f97316;">██║   ██║</span>
+                      <span style="color:#f97316;">██║   ██║</span>
+                      <span style="color:#f97316;">╚██╗ ██╔╝</span>
+                      <span style="color:#f97316;"> ╚████╔╝ </span>
+                      <span style="color:#f97316;">  ╚═══╝  </span>
 
-   ██╗   ██╗ █████╗ ██╗   ██╗██╗  ████████╗██╗   ██╗
-   ██║   ██║██╔══██╗██║   ██║██║  ╚══██╔══╝╚██╗ ██╔╝
-   ██║   ██║███████║██║   ██║██║     ██║    ╚████╔╝ 
-   ╚██╗ ██╔╝██╔══██║██║   ██║██║     ██║     ╚██╔╝  
-    ╚████╔╝ ██║  ██║╚██████╔╝███████╗██║      ██║   
-     ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝      ╚═╝   
+   <span style="color:#f97316;">██╗   ██╗</span> █████╗ <span style="color:#f97316;">██╗   ██╗</span>██╗  ████████╗<span style="color:#f97316;">██╗   ██╗</span>
+   <span style="color:#f97316;">██║   ██║</span>██╔══██╗<span style="color:#f97316;">██║   ██║</span>██║  ╚══██╔══╝<span style="color:#f97316;">╚██╗ ██╔╝</span>
+   <span style="color:#f97316;">██║   ██║</span>███████║<span style="color:#f97316;">██║   ██║</span>██║     ██║    <span style="color:#f97316;">╚████╔╝ </span>
+   <span style="color:#f97316;">╚██╗ ██╔╝</span>██╔══██║<span style="color:#f97316;">██║   ██║</span>██║     ██║     <span style="color:#f97316;">╚██╔╝  </span>
+    <span style="color:#f97316;">╚████╔╝</span> ██║  ██║<span style="color:#f97316;">╚██████╔╝</span>███████╗██║      <span style="color:#f97316;">██║   </span>
+     <span style="color:#f97316;">╚═══╝</span>  ╚═╝  ╚═╝ <span style="color:#f97316;">╚═════╝</span> ╚══════╝╚═╝      <span style="color:#f97316;">╚═╝   </span>
 </pre>
 
 ### 🛡️ Next-Gen Zero-Knowledge Password Manager & Smart Autofill
