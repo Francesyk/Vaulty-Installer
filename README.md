@@ -33,6 +33,7 @@
 #Important! 
 1)The installer is not digitally signed, so windows might advise with a smartscreen advice, just go on "more information ---> continue"
 2) i published the SHA256 to make use that this app is safe to use
+3) Last but not less important ###GOOGLE EXTENSION IN UNDER REVISIONING, please wait###
 
 ## ✨ Features at a Glance
 
