@@ -30,6 +30,9 @@
 </div>
 
 ---
+#Important! 
+1)The installer is not digitally signed, so windows might advise with a smartscreen advice, just go on "more information ---> continue"
+2) i published the SHA256 to make use that this app is safe to use
 
 ## ✨ Features at a Glance
 
@@ -72,9 +75,6 @@ flowchart LR
 
 ---
 
-##Verification 
-Since i don't hhave money to request a certification i cuplaod the SHA256 to verify that the app is safe to use 
-SHA256          AE318F73C812CB13A31719FAEA4B1D48AA4E02571A632A51BAE9B2056363AFDF
 
 ## ⌨️ Useful Keyboard Shortcuts
 
