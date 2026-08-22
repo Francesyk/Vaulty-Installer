@@ -30,10 +30,13 @@
 </div>
 
 ---
-#Important! 
-1)The installer is not digitally signed, so windows might advise with a smartscreen advice, just go on "more information ---> continue"
-2) i published the SHA256 to make use that this app is safe to use
-3) Last but not less important ###GOOGLE EXTENSION IN UNDER REVISIONING, please wait###
+> [!WARNING]
+> ### ⚠️ Important Notes
+> 1. **Windows SmartScreen**: The executable is currently unsigned. If prompted by SmartScreen, click **"More info" ➔ "Run anyway"**.
+> 2. **Integrity Verification**: Official SHA-256 checksums are published with every [Release](https://github.com) to verify file integrity.
+> 3. **Chrome Web Store Status**: The Chrome companion extension is currently **under review** by the Google Web Store team and will be publicly available shortly.
+
+---
 
 ## ✨ Features at a Glance
 
