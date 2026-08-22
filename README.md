@@ -72,6 +72,10 @@ flowchart LR
 
 ---
 
+##Verification 
+Since i don't hhave money to request a certification i cuplaod the SHA256 to verify that the app is safe to use 
+SHA256          AE318F73C812CB13A31719FAEA4B1D48AA4E02571A632A51BAE9B2056363AFDF
+
 ## ⌨️ Useful Keyboard Shortcuts
 
 | Shortcut | Action |
