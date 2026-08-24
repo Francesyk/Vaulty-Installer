@@ -33,7 +33,7 @@
 > [!WARNING]
 > ### ⚠️ Important Notes
 > 1. **Windows SmartScreen**: The executable is currently unsigned. If prompted by SmartScreen, click **"More info" ➔ "Run anyway"**.
-> 2. **Integrity Verification**: Official SHA-256 checksums are published with every [Release](https://github.com) to verify file integrity.
+> 2. **Integrity Verification**: Official SHA-256 checksums are published with every [Release](https://github.com/Francesyk/Vaulty-Installer/releases/latest) to verify file integrity.
 > 3. **Chrome Web Store Status**: The Chrome companion extension is currently **under review** by the Google Web Store team and will be publicly available shortly.
 
 ---
@@ -68,7 +68,7 @@ flowchart LR
 ## 📥 Installation & Setup
 
 ### Step 1: Install Vaulty Desktop
-1. Download the latest **`Vaulty-Setup.exe`** from the [Releases](https://github.com) section.
+1. Download the latest **`Vaulty-Setup.exe`** from the [Releases](https://github.com/Francesyk/Vaulty-Installer/releases/latest) section.
 2. Run the installer and follow the quick on-screen setup.
 3. Launch **Vaulty** and create your secure Master Password.
 
