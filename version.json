@@ -1,0 +1,25 @@
+{
+    "version":  "1.0.3",
+    "tag":  "v1.0.3",
+    "pub_date":  "2026-11-18T12:08:52Z",
+    "notes":  "Versione 1.0.3 — Supporto Multi-Architettura (x64, x86, ARM64), Liquid Glass UI e Auto-Updater GitHub integrato.",
+    "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.3/Vaulty-Setup-x64.exe",
+    "sha256":  "ce03a717f33af19dd0c58accc9b7e6182f083b8ecdf246adb1ed14d9a4b5bacd",
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.3/Vaulty-Setup-x64.exe",
+                                             "sha256":  "ce03a717f33af19dd0c58accc9b7e6182f083b8ecdf246adb1ed14d9a4b5bacd",
+                                             "size":  20308992
+                                         },
+                      "windows-x86":  {
+                                          "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.3/Vaulty-Setup-x86.exe",
+                                          "sha256":  "8ecd2454d928e0c452167d179bba64116d3ec36b6ffe92b7bdf401fda34245b1",
+                                          "size":  16195584
+                                      },
+                      "windows-aarch64":  {
+                                              "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.3/Vaulty-Setup-arm64.exe",
+                                              "sha256":  "2492428830bd89666e1142d9ffe6286ff0a975e1c0f02dfb24387eb220d078fc",
+                                              "size":  17530368
+                                          }
+                  }
+}
