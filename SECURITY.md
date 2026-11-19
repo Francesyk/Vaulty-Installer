@@ -1,6 +1,6 @@
 # Security Policy
 
-At **ZeroState**, security and data confidentiality are our highest priorities. As a zero-knowledge password manager, **Vaulty** is designed around end-to-end local encryption, minimal attack surfaces, and strict security standards.
+At **ZeroState**, security and data confidentiality are our highest priorities. As a zero-knowledge password manager, **Vylo** is designed around end-to-end local encryption, minimal attack surfaces, and strict security standards.
 
 We take all potential security vulnerabilities seriously and appreciate the responsible disclosure of any discovered flaws.
 
@@ -8,27 +8,27 @@ We take all potential security vulnerabilities seriously and appreciate the resp
 
 ## 🛡️ Supported Versions
 
-We actively maintain and provide security updates for the following versions of Vaulty:
+We actively maintain and provide security updates for the following versions of Vylo:
 
-| Version | Supported          | Status |
+| Version | Supported | Status |
 | :--- | :--- | :--- |
 | **v1.x (Latest Release)** | :white_check_mark: | Active Security Patches |
-| **< v1.0 / Beta** | :x: | End of Life (EOL) |
+| **< v1.0 / Legacy Beta** | :x: | End of Life (EOL) |
 
-*Please always ensure you are running the latest version available in the [Releases](https://github.com) tab.*
+*Please always ensure you are running the latest version available in the [Releases](https://github.com/Francesyk/Vylo-Password-Log/releases/latest) tab.*
 
 ---
 
 ## 🚨 Reporting a Vulnerability
 
-If you discover a security vulnerability or sensitive flaw within **Vaulty** (including the desktop application, Rust backend, cryptography pipeline, or Chrome Companion Extension), **please DO NOT report it via public GitHub issues, discussions, or pull requests.**
+If you discover a security vulnerability or sensitive flaw within **Vylo** (including the desktop application, Android app / AutofillService, Rust backend, cryptography pipeline, Universal Local Bridge, or Browser Companion Extensions), **please DO NOT report it via public GitHub issues, discussions, or pull requests.**
 
 ### How to Disclose Privately:
-1. **Direct Security Contact**: Send a detailed report to **security@zerostate.dev** *(or open a private [GitHub Security Advisory](https://github.com))*
+1. **Direct Security Contact**: Send a detailed report to **security@zerostate.dev** *(or open a private [GitHub Security Advisory](https://github.com/Francesyk/Vylo-Password-Log/security/advisories/new))*
 2. **Include Technical Details**:
    - Detailed description of the issue and potential impact
    - Step-by-step reproduction steps or a minimal Proof of Concept (PoC)
-   - Relevant environment details (OS version, Chrome version, Vaulty app version)
+   - Relevant environment details (OS/architecture, browser version, Vylo app version)
    - Any proposed mitigations or suggested fixes (if available)
 
 ---
@@ -50,13 +50,14 @@ For reference, reports regarding the core security primitives should consider ou
 - **KDF**: Argon2id (64 MB RAM cost, 3 iterations, 4 parallel lanes)
 - **Encryption**: Authenticated AES-256-GCM with unique 96-bit nonces
 - **Memory Safety**: Direct zeroization of in-memory sensitive keys via Rust's `zeroize`
-- **IPC Isolation**: Local Native Messaging protocol with strict origin validation
+- **IPC & Bridge Isolation**: Local WebSocket/HTTP Bridge with HMAC-SHA256 pairing, strict origin/nonce anti-replay checks, and Native Messaging fallback
+- **Ephemeral LAN Drop**: Single-credential 30-second one-time micro-endpoint with automatic teardown
 
 ---
 
 <div align="center">
 
-Thank you for helping keep **Vaulty** and our users safe!  
+Thank you for helping keep **Vylo** and our users safe!  
 Developed with ❤️ by **ZeroState**
 
 </div>

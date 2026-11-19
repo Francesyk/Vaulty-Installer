@@ -1,51 +1,46 @@
 <div align="center">
 
 <pre>
-                      <span style="color:#f97316;">██╗   ██╗</span>
-                      <span style="color:#f97316;">██║   ██║</span>
-                      <span style="color:#f97316;">██║   ██║</span>
-                      <span style="color:#f97316;">╚██╗ ██╔╝</span>
-                      <span style="color:#f97316;"> ╚████╔╝ </span>
-                      <span style="color:#f97316;">  ╚═══╝  </span>
-
-   <span style="color:#f97316;">██╗   ██╗</span> █████╗ <span style="color:#f97316;">██╗   ██╗</span>██╗  ████████╗<span style="color:#f97316;">██╗   ██╗</span>
-   <span style="color:#f97316;">██║   ██║</span>██╔══██╗<span style="color:#f97316;">██║   ██║</span>██║  ╚══██╔══╝<span style="color:#f97316;">╚██╗ ██╔╝</span>
-   <span style="color:#f97316;">██║   ██║</span>███████║<span style="color:#f97316;">██║   ██║</span>██║     ██║    <span style="color:#f97316;">╚████╔╝ </span>
-   <span style="color:#f97316;">╚██╗ ██╔╝</span>██╔══██║<span style="color:#f97316;">██║   ██║</span>██║     ██║     <span style="color:#f97316;">╚██╔╝  </span>
-    <span style="color:#f97316;">╚████╔╝</span> ██║  ██║<span style="color:#f97316;">╚██████╔╝</span>███████╗██║      <span style="color:#f97316;">██║   </span>
-     <span style="color:#f97316;">╚═══╝</span>  ╚═╝  ╚═╝ <span style="color:#f97316;">╚═════╝</span> ╚══════╝╚═╝      <span style="color:#f97316;">╚═╝   </span>
+██╗   ██╗██╗   ██╗██╗      ██████╗ 
+██║   ██║╚██╗ ██╔╝██║     ██╔═══██╗
+██║   ██║ ╚████╔╝ ██║     ██║   ██║
+╚██╗ ██╔╝  ╚██╔╝  ██║     ██║   ██║
+ ╚████╔╝    ██║   ███████╗╚██████╔╝
+  ╚═══╝     ╚═╝   ╚══════╝ ╚═════╝ 
 </pre>
 
-### 🛡️ Next-Gen Zero-Knowledge Password Manager & Smart Autofill
+### 🛡️ Next-Gen Zero-Knowledge Password Manager & Universal Autofill
 
-[![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com)
+[![Platforms](https://img.shields.io/badge/Platforms-Windows_%7C_macOS_%7C_Android-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Francesyk/Vylo-Password-Log/releases/latest)
 [![Framework](https://img.shields.io/badge/Tauri_v2-Rust_%2B_React_19-FFC131?style=for-the-badge&logo=tauri&logoColor=black)](https://tauri.app)
-[![Security](https://img.shields.io/badge/Encryption-Argon2id_%2B_AES--256--GCM-22c55e?style=for-the-badge&logo=shield)](https://github.com)
-[![Extension](https://img.shields.io/badge/Chrome_MV3-Companion_Extension-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chrome.google.com/webstore)
+[![Security](https://img.shields.io/badge/Encryption-Argon2id_%2B_AES--256--GCM-22c55e?style=for-the-badge&logo=shield)](https://github.com/Francesyk/Vylo-Password-Log/blob/main/SECURITY.md)
+[![Browser Bridge](https://img.shields.io/badge/Browsers-Chrome_%7C_Edge_%7C_Brave_%7C_Firefox_%7C_Zen-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/Francesyk/Vylo-Password-Log/releases/latest)
 
 ---
 
-**Vaulty** is a lightning-fast, privacy-first personal password manager built with **Tauri v2**, **Rust**, **React 19**, and a dedicated **Google Chrome Manifest V3 Companion Extension**.
+**Vylo** is an open-source, zero-knowledge password manager built with **Tauri v2**, **Rust**, and **React 19**, featuring local **Argon2id / AES-256-GCM** encryption, an offline **2FA/TOTP** authenticator, **Universal Browser Autofill**, and native **Android AutofillService** support.
 
 </div>
 
 ---
 > [!WARNING]
 > ### ⚠️ Important Notes
-> 1. **Windows SmartScreen**: The executable is currently unsigned. If prompted by SmartScreen, click **"More info" ➔ "Run anyway"**.
-> 2. **Integrity Verification**: Official SHA-256 checksums are published with every [Release](https://github.com/Francesyk/Vaulty-Installer/releases/latest) to verify file integrity.
-> 3. **Chrome Web Store Status**: The Chrome companion extension is currently **under review** by the Google Web Store team and will be publicly available shortly.
+> 1. **Windows SmartScreen**: While code-signing certification is being finalized, Windows SmartScreen may show a warning for unsigned binaries. Click **"More info" ➔ "Run anyway"** if you verified the checksum.
+> 2. **Integrity Verification**: Official SHA-256 checksums are published in [`version.json`](https://github.com/Francesyk/Vylo-Password-Log/blob/main/version.json) and with every [Release](https://github.com/Francesyk/Vylo-Password-Log/releases/latest).
+> 3. **Supported Architectures**: Windows (`x64`, `x86`, `arm64`), macOS (`Apple Silicon`, `Intel`), and Android (`arm64-v8a`).
 
 ---
 
 ## ✨ Features at a Glance
 
-- 🔒 **Zero-Knowledge Architecture**: All credentials are encrypted locally before touching storage. Your Master Password never leaves your machine.
-- ⚡ **Intelligent Autofill & 1-Click Login**: Automatically recognizes login, registration, and password change fields across any website.
-- 🧩 **Chrome MV3 Companion Extension**: Seamless communication with the desktop app through high-security local Native Messaging.
-- 🎨 **Liquid Glass & Bento Grid UI**: Modern, fluid interface with customizable dynamic color themes (Cyber Violet, Ocean Blue, Emerald Nature, Pop Fuchsia).
-- 🕒 **Integrated 2FA / TOTP Authenticator**: Generates standard time-based one-time passwords directly in-app and in the browser popup.
-- 🔍 **HaveIBeenPwned Breach Check**: Checks if passwords have been compromised using a privacy-preserving 5-character SHA-1 k-anonymity model.
+- 🔒 **Zero-Knowledge Local Encryption**: Every credential is encrypted locally before touching disk. Your Master Password never leaves your device.
+- 🌐 **Universal Local Browser Bridge**: Works across **Chrome, Edge, Brave, Opera, Vivaldi, Comet, Arc, Firefox, and Zen** via an authenticated local WebSocket/HTTP bridge with HMAC-SHA256 pairing (plus Native Messaging fallback).
+- 📱 **Native Android App & AutofillService**: Dedicated Android APK (`arm64-v8a`) with system-wide Android Autofill integration (`VyloAutofillService`).
+- 📲 **QR / LAN Drop (30s Ephemeral Bridge)**: Transfer a single password or TOTP code directly to your phone over your local network via a 30-second one-time QR link—without exposing the vault.
+- 🕒 **Offline 2FA / TOTP Authenticator**: RFC 6238 generator in Rust (`HMAC-SHA1/256/512`) with built-in Screen QR Scanner and Google Authenticator migration import.
+- ⚡ **Smart Paste & Lazy Automations**: Sequential `Ctrl+V` cascade (Email → Password → 2FA), assisted password rotation (`.well-known/change-password`), and Zero-Knowledge Burn-After-Reading sharing.
+- 🔍 **Security Audit & HIBP Check**: Privacy-preserving 5-char SHA-1 k-anonymity breach check, password reuse detection, and Domino Effect graph.
+- 🌍 **Liquid Glass UI & 6 Languages**: Available in **Italiano, English, Français, Deutsch, Español, Português**.
 
 ---
 
@@ -55,35 +50,42 @@
 flowchart LR
     A[Master Password] -->|Argon2id KDF| B[256-bit Encryption Key]
     B -->|AES-256-GCM| C[(Local Encrypted SQLite)]
-    C <-->|Native Messaging Host| D[Chrome Extension]
-    D -->|1-Click Autofill| E[Web Pages / Login Forms]
+    C <-->|HMAC-SHA256 Local Bridge / Native Messaging| D[Desktop Browsers]
+    C <-->|Android AutofillService| E[Mobile Apps & Browsers]
+    C -->|30s Ephemeral LAN Drop| F[QR One-Time Transfer]
 ```
 
 - **Key Derivation (KDF)**: `Argon2id` with 64 MB memory cost, 3 iterations, and 4 lanes.
 - **Cipher**: `AES-256-GCM` with 96-bit unique nonces and 128-bit authentication tags.
-- **RAM Protection**: Explicit memory zeroization via Rust's `zeroize` crate to prevent secrets from lingering in memory.
+- **RAM Protection**: Explicit memory zeroization via Rust's `zeroize` crate so secrets do not linger in memory.
 
 ---
 
-## 📥 Installation & Setup
+## 📥 Downloads & Installation
 
-### Step 1: Install Vaulty Desktop
-1. Download the latest **`Vaulty-Setup.exe`** from the [Releases](https://github.com/Francesyk/Vaulty-Installer/releases/latest) section.
-2. Run the installer and follow the quick on-screen setup.
-3. Launch **Vaulty** and create your secure Master Password.
+Download the latest release for your device from **[Releases](https://github.com/Francesyk/Vylo-Password-Log/releases/latest)**:
 
-### Step 2: Install Chrome Companion Extension
-1. Install the **Vaulty Companion Extension** from the [Chrome Web Store](https://chrome.google.com/webstore).
-2. The extension automatically establishes a secure Native Messaging bridge with the desktop app.
-3. Press `Ctrl + Shift + L` on any login page to instantly fill your credentials!
+| Platform | Architecture | Installer / Package |
+| :--- | :--- | :--- |
+| **Windows** | 64-bit (Intel / AMD) | `Vylo-Setup-x64.exe` |
+| **Windows** | 32-bit (x86) | `Vylo-Setup-x86.exe` |
+| **Windows** | ARM64 (Snapdragon / Copilot+ PC) | `Vylo-Setup-arm64.exe` |
+| **macOS** | Apple Silicon (M1 / M2 / M3 / M4) | `Vylo-macOS-AppleSilicon.dmg` |
+| **macOS** | Intel (`x86_64`) | `Vylo-macOS-Intel.dmg` |
+| **Android** | ARM64 (`arm64-v8a`) | `Vylo-Android-arm64.apk` *(in `android-v*` release)* |
+
+### Quick Setup
+1. **Desktop**: Download and run the installer for your OS/architecture, then create your Master Password (or restore an existing `.vylo` / `.vaulty` backup).
+2. **Browser Extension**: Load the **Vylo Companion Extension** (Chromium MV3 or Firefox/Zen XPI) and approve the 1-click pairing prompt inside Vylo.
+3. **Android**: Install `Vylo-Android-arm64.apk`, then enable **Vylo Autofill** under Android *Settings → Passwords & Autofill*.
 
 ---
-
 
 ## ⌨️ Useful Keyboard Shortcuts
 
 | Shortcut | Action |
 | :--- | :--- |
+| `Ctrl + Shift + Space` | Open Vylo Liquid HUD (Quick Access at cursor) |
 | `Ctrl + Shift + L` | Autofill credentials on current web page |
 | `Ctrl + F` | Quick search vault items |
 | `Ctrl + L` | Instantly lock vault |
