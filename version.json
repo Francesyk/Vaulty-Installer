@@ -1,25 +1,25 @@
 {
-    "version":  "1.0.8",
-    "tag":  "v1.0.8",
-    "pub_date":  "2026-11-19T12:19:31Z",
-    "notes":  "v1.0.8: Universal Local Bridge (Chromium + Firefox/Zen), Android AutofillService nativo, traduzioni complete, migrazione DB legacy e Ponte Mobile QR/LAN Drop.",
-    "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.8/Vylo-Setup-x64.exe",
-    "sha256":  "4d90640c45474bcfe0d78c32bedacb994363beb1420ebf5212ac96daed49e824",
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.8/Vylo-Setup-x64.exe",
-                                             "sha256":  "4d90640c45474bcfe0d78c32bedacb994363beb1420ebf5212ac96daed49e824",
-                                             "size":  26603520
-                                         },
-                      "windows-x86":  {
-                                          "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.8/Vylo-Setup-x86.exe",
-                                          "sha256":  "91212af7f6fad9ada1533a51ca24386b24f3c17846218462f25393ead1186782",
-                                          "size":  22308864
-                                      },
-                      "windows-aarch64":  {
-                                              "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.8/Vylo-Setup-arm64.exe",
-                                              "sha256":  "4f711ba317de64bb60591a9b9b889ef42a47cb63f12ac5fc321b9bf5e17b4821",
-                                              "size":  23559680
-                                          }
-                  }
+  "version": "1.0.9",
+  "tag": "v1.0.9",
+  "pub_date": "2026-11-19T15:24:28Z",
+  "notes": "Versione 1.0.9 — Compilazione automatica da GitHub Actions.",
+  "url": "https://github.com/Francesyk/Vylo-Password-Log/releases/download/v1.0.9/Vylo-Setup-x64.exe",
+  "sha256": "e3b2e6f39c8c7cc8d91f08c86a196acdb9ec5ca9addecdb49ad57250a1b2589f",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/Francesyk/Vylo-Password-Log/releases/download/v1.0.9/Vylo-Setup-x64.exe",
+      "sha256": "e3b2e6f39c8c7cc8d91f08c86a196acdb9ec5ca9addecdb49ad57250a1b2589f",
+      "size": 26404864
+    },
+    "windows-x86": {
+      "url": "https://github.com/Francesyk/Vylo-Password-Log/releases/download/v1.0.9/Vylo-Setup-x86.exe",
+      "sha256": "ea26e39ca610bc96f464d764dfd0af2d09af39cebcd14cbf53a6d11aec446fa3",
+      "size": 22083584
+    },
+    "windows-aarch64": {
+      "url": "https://github.com/Francesyk/Vylo-Password-Log/releases/download/v1.0.9/Vylo-Setup-arm64.exe",
+      "sha256": "541761eb3d0439d9cf9948bba2e546aeef7474e70addc8b7daee2cc913703cdf",
+      "size": 23435776
+    }
+  }
 }
