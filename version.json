@@ -1,25 +1,25 @@
 {
-    "version":  "1.0.6",
-    "tag":  "v1.0.6",
-    "pub_date":  "2026-11-18T23:58:27Z",
-    "notes":  "v1.0.5b (1.0.6): Supporto multilingua (Italiano, English, Français, Deutsch, Español, Português).",
-    "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.6/Vylo-Setup-x64.exe",
-    "sha256":  "16b2a3c93f007fe23be45d9bf5578969dee022afa482ab5f4aabff64b773253f",
+    "version":  "1.0.8",
+    "tag":  "v1.0.8",
+    "pub_date":  "2026-11-19T12:19:31Z",
+    "notes":  "v1.0.8: Universal Local Bridge (Chromium + Firefox/Zen), Android AutofillService nativo, traduzioni complete, migrazione DB legacy e Ponte Mobile QR/LAN Drop.",
+    "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.8/Vylo-Setup-x64.exe",
+    "sha256":  "4d90640c45474bcfe0d78c32bedacb994363beb1420ebf5212ac96daed49e824",
     "platforms":  {
                       "windows-x86_64":  {
-                                             "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.6/Vylo-Setup-x64.exe",
-                                             "sha256":  "16b2a3c93f007fe23be45d9bf5578969dee022afa482ab5f4aabff64b773253f",
-                                             "size":  26162176
+                                             "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.8/Vylo-Setup-x64.exe",
+                                             "sha256":  "4d90640c45474bcfe0d78c32bedacb994363beb1420ebf5212ac96daed49e824",
+                                             "size":  26603520
                                          },
                       "windows-x86":  {
-                                          "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.6/Vylo-Setup-x86.exe",
-                                          "sha256":  "aba1321057def923d8f247dea825692957f163d69d821878ce3f7909dfb55013",
-                                          "size":  21957632
+                                          "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.8/Vylo-Setup-x86.exe",
+                                          "sha256":  "91212af7f6fad9ada1533a51ca24386b24f3c17846218462f25393ead1186782",
+                                          "size":  22308864
                                       },
                       "windows-aarch64":  {
-                                              "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.6/Vylo-Setup-arm64.exe",
-                                              "sha256":  "72af6032a373b17c400151ffc5b7b0095cbccc280ebf90cf05912636e9b58615",
-                                              "size":  23178240
+                                              "url":  "https://github.com/Francesyk/Vaulty-Installer/releases/download/v1.0.8/Vylo-Setup-arm64.exe",
+                                              "sha256":  "4f711ba317de64bb60591a9b9b889ef42a47cb63f12ac5fc321b9bf5e17b4821",
+                                              "size":  23559680
                                           }
                   }
 }
